@@ -1,0 +1,4 @@
+MongoDB serialized CalendarEvents
+Alternatively:
+user Varchar(Max)<index> | calendarKey Varchar(Max)<index> | CalendarEventSerialized Varchar(Max) 
+

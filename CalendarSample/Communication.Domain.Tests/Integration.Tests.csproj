@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Autofac" Version="4.9.4" />
+    <PackageReference Include="Autofac.Extensions.DependencyInjection" Version="5.0.0" />
+    <PackageReference Include="FluentAssertions" Version="5.9.0" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="16.2.0" />
+    <PackageReference Include="NSubstitute" Version="4.2.1" />
+    <PackageReference Include="System.Reactive" Version="4.1.6" />
+    <PackageReference Include="xunit" Version="2.4.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
+    <PackageReference Include="coverlet.collector" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Authentication.Core\Authentication.Core.csproj" />
+    <ProjectReference Include="..\Authentication.Domain\Authentication.Domain.csproj" />
+    <ProjectReference Include="..\Authorization.Core\Authorization.Core.csproj" />
+    <ProjectReference Include="..\Authorization.Domain\Authorization.Domain.csproj" />
+    <ProjectReference Include="..\Calendar.Core\Calendar.Core.csproj" />
+    <ProjectReference Include="..\Calendar.Domain\Calendar.Domain.csproj" />
+    <ProjectReference Include="..\Communication.Core\Communication.Core.csproj" />
+    <ProjectReference Include="..\Communication.Domain\Communication.Domain.csproj" />
+    <ProjectReference Include="..\Communication.Sample.Infrastructure\Communication.Infrastructure.Sample.csproj" />
+    <ProjectReference Include="..\Notifications.Domain\Notifications.Domain.csproj" />
+    <ProjectReference Include="..\Session.Core\Session.Core.csproj" />
+    <ProjectReference Include="..\Session.Domain\Session.Domain.csproj" />
+  </ItemGroup>
+
+</Project>

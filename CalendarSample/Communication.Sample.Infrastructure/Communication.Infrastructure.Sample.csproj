@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Authorization.Core\Authorization.Core.csproj" />
+    <ProjectReference Include="..\Authorization.Domain\Authorization.Domain.csproj" />
+    <ProjectReference Include="..\Communication.Core\Communication.Core.csproj" />
+    <ProjectReference Include="..\Communication.Domain\Communication.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
